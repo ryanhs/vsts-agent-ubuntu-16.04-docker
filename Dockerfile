@@ -3,8 +3,8 @@ MAINTAINER ryanhs <mr.ryansilalahi@gmail.com>
 
 # install some tools
 RUN apt update && apt install -y git less curl nano
-RUN alias vi=nano
-RUN alias vim=nano
+#RUN alias vi=nano
+#RUN alias vim=nano
 
 # yq
 RUN wget https://github.com/mikefarah/yq/releases/download/3.3.0/yq_linux_amd64
